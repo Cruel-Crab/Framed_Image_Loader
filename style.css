@@ -1,0 +1,25 @@
+.image{
+	max-width: 400px;
+	max-height: 400px;
+	height: 400px;
+	background-image: none;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 1em;
+}
+.input-div{
+	margin: 0.5em;
+	margin-left: 1em;
+}
+.ip input{
+	outline: none;
+	border-width: 0 0 2px;
+	border-color: blue;
+  	border-bottom: 1px solid #1890ff;
+  	padding: 5px 10px;
+    font-size: 1rem;
+}
+.ip input:focus {
+  	border-color: red
+}
